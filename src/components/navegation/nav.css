@@ -1,0 +1,70 @@
+:root {
+    --color-header:hsl(30,100%,50%);
+    --color-botones: hsl(26, 68%, 48%);
+}
+
+.navegador{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0px 50px 0px 50px;
+    z-index: 5;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-header);
+}
+
+.ulNavegador{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 300px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    }
+
+nav a,
+nav a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: yellow;
+    line-height: 25px;
+
+}
+
+.active{
+    font-weight: bold;
+
+}
+
+.default{
+    color: black;
+
+}
+
+.logo{
+    width: 60px;
+    height:60px;
+    border-radius: 20px;
+}
+
+#botones{
+    background-color: var(--color-botones);
+    border-radius: 4px;
+    border: solid white 1px;
+    padding: 8px 15px 8px 15px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+
+

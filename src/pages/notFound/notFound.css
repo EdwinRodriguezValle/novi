@@ -1,0 +1,18 @@
+.backtohome{
+    background-color: #d7d76c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+
+}
+.til{
+    color:red;
+}
+
+#back{
+    color: #31409f;
+    text-align: center;
+}

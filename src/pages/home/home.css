@@ -1,0 +1,234 @@
+
+/* --------------- 2.2 Header ------------------- */
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+
+}
+
+header{
+    background-color: yellow;
+    width: 100%;
+    margin: 10px;
+}
+.cuerpo{
+    width: 100%;
+    background-color: #d7d76c;
+    border: solid 4px white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    margin: 10px;
+
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+}
+
+.foto{
+    width: 70%;
+    height: 100%;
+    background: url('../../assets/sietecolores.jpg');
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+
+.historias{
+    border: white 2px solid;
+    position: relative;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 0;
+    flex-shrink: 1;
+    align-items: center;
+    margin-left: 50px;
+    margin-right:50px;
+    text-align: center;
+    height: 500px;
+
+}
+
+.mensajes{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    height: 400px;
+    background-color: #936351;
+}
+
+
+.icons{
+    position: absolute;
+    margin-top: 10px;
+    background-color: olive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0;
+    flex-shrink: 1;
+    height: 400px;
+    width:100%;
+
+}
+
+article{
+    position: relative;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 1;
+    flex-grow: 0;
+    margin-outside: 10px;
+    /*background-color: purple;*/
+    height: 350px;
+}
+
+h1{
+    color: white;
+    font-weight: bold;
+}
+
+h2{
+    color: white;
+}
+
+
+
+span{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 22%;
+    flex-shrink: 1;
+    flex-grow: 0;
+    height: 300px;
+    /*border: white 2px solid;*/
+    /*background-color: white;*/
+    text-align: center;
+
+
+}
+
+.nota{
+    position: relative;
+    margin-top: 15px;
+    font-size: 18px;
+    background-color: #a6a619;
+    border-radius: 5px;
+    height: 80%;
+    /*background-color: red;*/
+}
+h6{
+    margin-top: 15px;
+    line-height: 2;
+}
+
+
+/*div {*/
+/*    width: calc(100% / 3);*/
+/*}*/
+
+/*.column {*/
+/*    height: calc(20px * 5);*/
+/*}*/
+
+/*.row {*/
+/*    margin: calc(var(--default-margin) + 20px);*/
+/*}*/
+/*input {*/
+/*    width: calc(100% - 30px);*/
+/*}*/
+
+
+
+/*header configuration*/
+
+header {
+    /*position: relative;*/
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: unset;
+    align-items: center;
+    background: url('../../assets/ollantaytambo.jpg');
+    background-size: cover;
+    color: black;
+    margin: 50px 0px 0px 0px;
+    border-color: #0e0d0d;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+/*header button*/
+
+
+.joinus{
+    background-color: orangered;
+    border: solid 1px white;
+    color: white;
+    width: 20%;
+    border-radius: 10px;
+}
+
+ #joinUs{
+    background-color: orangered;
+    font-weight: 200;
+    border: solid 1px white;
+     border-radius: 10px;
+    padding: 18px 35px;
+    font-size: 30px;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 20%;
+}
+
+#joinUs:hover {
+    cursor: pointer;
+    color: yellow;
+    background-color: blue;
+}
+
+header h1 {
+    font-size: 50px;
+    padding: 48px 0;
+    color: white;
+    text-align: center;
+    text-shadow: blue 0px 1px 4px;
+
+}
+
+header h2{
+    padding: 20px;
+    width: 60%;
+    text-align: center;
+    text-shadow: white 0px 1px 4px;
+}
+
+img{
+    width: 60px;
+    height:60px;
+    border-radius: 20px;
+}
