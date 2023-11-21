@@ -10,7 +10,7 @@ You need to have all the bellow listed dependencies setup in your `pom.xml` map:
 
 ```XML 
         <dependencies>
-<!--    It will help you to start you app-->
+<!--    It will help you to start you app -->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter</artifactId>

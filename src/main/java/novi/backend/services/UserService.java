@@ -1,7 +1,5 @@
 package novi.backend.services;
 
-
-
 import novi.backend.dtos.UserDto;
 import novi.backend.entities.UserEntity;
 

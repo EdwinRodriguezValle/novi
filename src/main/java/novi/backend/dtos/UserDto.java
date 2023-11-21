@@ -1,9 +1,6 @@
 package novi.backend.dtos;
 
-
-
 import novi.backend.entities.UserEntity;
-
 import java.util.Date;
 
 

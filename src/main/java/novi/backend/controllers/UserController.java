@@ -48,7 +48,7 @@ public class UserController {
     @PostMapping("/register")
     public UserEntity saveUser(@RequestBody UserDto user){
         // prueba a lanzar excepción customizada
-        // throw new EmailAlreadyExistsException("Email ocupado");
+        //throw new EmailAlreadyExistsException("Email ocupado");
         return userService.save(user);
     }
 
