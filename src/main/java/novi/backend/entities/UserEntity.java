@@ -8,7 +8,8 @@ import java.util.Set;
 
 @Entity
 public class UserEntity {
-//    Variable
+
+    //Variable - attributes
 @Id
 @GeneratedValue(strategy= GenerationType.IDENTITY)
 private long id;
@@ -38,7 +39,14 @@ private long id;
     @Column
     private String gender;
 
+    @Column
     private String address;
+    @Column
+    private String particularInterest;
+    @Column
+    private String aditionalInfo;
+    @Column
+    private String nacionality;
 
 
 //    Creating a relation with roles
@@ -52,13 +60,11 @@ private long id;
     private Set<RoleEntity> roleEntities;
 
 
-
-//    Default constructor
+    //    Default constructor
     public UserEntity() {
     }
 
-//    Generating getter and setters
-
+    //    Generating getter and setters
     public long getId() {
         return id;
     }
@@ -139,6 +145,30 @@ private long id;
         this.address = address;
     }
 
+    public String getParticularInterest() {
+        return particularInterest;
+    }
+
+    public void setParticularInterest(String particularInterest) {
+        this.particularInterest = particularInterest;
+    }
+
+    public String getAditionalInfo() {
+        return aditionalInfo;
+    }
+
+    public void setAditionalInfo(String aditionalInfo) {
+        this.aditionalInfo = aditionalInfo;
+    }
+
+    public String getNacionality() {
+        return nacionality;
+    }
+
+    public void setNacionality(String nacionality) {
+        this.nacionality = nacionality;
+    }
+
     public Set<RoleEntity> getRoleEntities() {
         return roleEntities;
     }
@@ -146,4 +176,5 @@ private long id;
     public void setRoleEntities(Set<RoleEntity> roleEntities) {
         this.roleEntities = roleEntities;
     }
+
 }

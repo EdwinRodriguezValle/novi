@@ -11,7 +11,6 @@ public class RoleEntity {
 
     @Column
     private String name;
-
     @Column
     private String description;
 
